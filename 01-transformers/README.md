@@ -1,5 +1,7 @@
 # Module 1 – Introduction to Transformers
 
+![Transformer Architecture](transformers_architecture.png)
+
 This module introduces the fundamentals of Transformer-based models using the Hugging Face Transformers library.
 
 ## Topics Covered

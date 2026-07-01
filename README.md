@@ -1,7 +1,14 @@
 # 🤗 Hugging Face LLM Course
 
+
+
+
+
 A collection of practical implementations completed while following the **Hugging Face Large Language Model (LLM) Course**. This repository demonstrates the use of modern NLP techniques and Transformer-based models using the Hugging Face ecosystem.
 
+
+
+![Transformer Architecture](01-transformers/transformers_architecture.png)
 ---
 
 ## 📚 Topics Covered
