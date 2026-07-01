@@ -1,4 +1,4 @@
-# 🤗 Hugging Face LLM Course
+# 🤗 Hugging Face LLM Learning
 
 
 
@@ -50,7 +50,7 @@ huggingface-llm-course/
 ├── .gitignore
 │
 ├── 01-transformers/
-├── 02-models/
+├── 02-transformer-workflow//
 ├── 03-tokenizers/
 ├── 04-nlp-tasks/
 ├── 05-fine-tuning/
@@ -65,7 +65,7 @@ huggingface-llm-course/
 | Module | Description | Status |
 |---------|-------------|:------:|
 | 01 - Transformers | Introduction to Transformer pipelines and NLP tasks | ✅ |
-| 02 - Models | Loading and using pretrained models | ⏳ |
+| 02 - Transformer Workflow | Understanding the Hugging Face pipeline internals | ✅ |
 | 03 - Tokenizers | Training and using Hugging Face tokenizers | ⏳ |
 | 04 - NLP Tasks | Question Answering, NER, Translation, Summarization | ⏳ |
 | 05 - Fine-tuning | Fine-tuning pretrained language models | ⏳ |
