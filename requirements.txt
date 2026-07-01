@@ -1,0 +1,7 @@
+# Requirements for the Hugging Face LLM learning
+
+torch==2.12.1
+transformers==4.56.1
+datasets==3.6.0
+evaluate==0.4.6
+huggingface_hub==0.36.2
