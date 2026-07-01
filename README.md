@@ -1,30 +1,31 @@
-# 🤗 Hugging Face LLM Learning
+# 🤗 Hugging Face LLM Course Portfolio
 
-
-
-
-
-A collection of practical implementations completed while following the **Hugging Face Large Language Model (LLM) Course**. This repository demonstrates the use of modern NLP techniques and Transformer-based models using the Hugging Face ecosystem.
-
-
+A collection of practical implementations completed while following the **Hugging Face Large Language Model (LLM) Course**. This repository has been reorganized into a structured portfolio that demonstrates modern Natural Language Processing (NLP), Transformer models, and Large Language Model (LLM) workflows using the Hugging Face ecosystem.
 
 ![Transformer Architecture](01-transformers/transformers_architecture.png)
+
+---
+
+## 🚀 Repository Overview
+
+This repository documents my hands-on implementation of the Hugging Face LLM Course. Each notebook has been reorganized, documented, and expanded with additional explanations, comments, and examples to create a professional learning portfolio.
+
 ---
 
 ## 📚 Topics Covered
 
-- Transformer Models
-- Hugging Face Pipelines
-- Model Training
-- Tokenization
-- Dataset Processing
-- Question Answering
+- Transformer architectures
+- Hugging Face pipelines
+- Transformer model training
+- Fast tokenizers
+- Dataset preprocessing
+- Question Answering (QA)
 - Named Entity Recognition (NER)
 - Machine Translation
 - Text Summarization
 - Masked Language Modeling
 - Causal Language Modeling
-- Fine-Tuning Pretrained Models
+- Supervised Fine-Tuning
 - Reinforcement Learning (GRPO)
 
 ---
@@ -35,9 +36,10 @@ A collection of practical implementations completed while following the **Huggin
 - PyTorch
 - Hugging Face Transformers
 - Hugging Face Datasets
+- Hugging Face Tokenizers
 - Hugging Face Evaluate
 - Hugging Face Hub
-- Tokenizers
+- Accelerate
 
 ---
 
@@ -66,26 +68,28 @@ huggingface-llm-course/
 
 | Module | Description | Status |
 |---------|-------------|:------:|
-| 01 - Transformers | Introduction to Transformer pipelines and NLP tasks | ✅ |
-| 02 - Transformer Workflow | Understanding the Hugging Face pipeline internals | ✅ |
-| 03_model_training | Preparing datasets and fine-tuning pretrained Transformer models.  | ✅ |
-| 04 - Tokenizers | Training and using Hugging Face tokenizers | ⏳ |
-| 05 - NLP Tasks | Question Answering, NER, Translation, Summarization | ⏳ |
-| 06 - Fine-tuning | Fine-tuning pretrained language models | ⏳ |
-| 07 - Course Exercises | Additional practical exercises | ⏳ |
-| 08 - RLHF | GRPO and reinforcement learning exercises | ⏳ |
+| **01 – Transformers** | Introduction to Transformer models and the Hugging Face `pipeline` API | ✅ |
+| **02 – Transformer Workflow** | Understanding the internal workflow of tokenizers, models, and inference pipelines | ✅ |
+| **03 – Model Training** | Dataset preprocessing and supervised fine-tuning using the Hugging Face `Trainer` API | ✅ |
+| **04 – Tokenization** | Fast tokenizers, normalization, WordPiece, BPE, Unigram, and custom tokenizer construction | ✅ |
+| **05 – NLP Tasks** | Question Answering, Named Entity Recognition, Translation, and Summarization | ⏳ |
+| **06 – Fine-Tuning** | Fine-tuning pretrained Transformer and language models | ⏳ |
+| **07 – Course Exercises** | Additional practical implementations and projects | ⏳ |
+| **08 – RLHF** | Reinforcement Learning and GRPO for Large Language Models | ⏳ |
 
 ---
 
 ## 🎯 Learning Objectives
 
-Throughout this course I explored how to:
+Throughout this repository, I explore how to:
 
-- Build NLP applications using pretrained Transformer models.
-- Process datasets and tokenize text efficiently.
-- Fine-tune language models for downstream tasks.
-- Train and evaluate modern NLP models.
-- Work with the Hugging Face Hub and ecosystem.
+- Understand the architecture of Transformer models.
+- Build NLP applications using pretrained models.
+- Process and tokenize text efficiently.
+- Train and fine-tune Transformer models.
+- Build custom tokenizers from scratch.
+- Evaluate NLP models using standard benchmarks.
+- Work effectively with the Hugging Face ecosystem.
 
 ---
 
@@ -94,8 +98,11 @@ Throughout this course I explored how to:
 - Hugging Face Large Language Model Course
 - Hugging Face Transformers
 - Hugging Face Datasets
+- Hugging Face Tokenizers
 - Hugging Face Hub
 
 ---
 
-⭐ This repository is part of my continuous learning journey in Large Language Models, Generative AI, and Natural Language Processing.
+## ⭐ About This Repository
+
+This repository is part of my continuous learning journey in **Large Language Models (LLMs)**, **Generative AI**, and **Natural Language Processing (NLP)**. Rather than simply uploading course notebooks, I have reorganized and expanded each module into a structured portfolio with additional explanations, documentation, and practical implementations.
