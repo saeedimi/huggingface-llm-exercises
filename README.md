@@ -15,7 +15,8 @@ A collection of practical implementations completed while following the **Huggin
 
 - Transformer Models
 - Hugging Face Pipelines
-- Tokenizers
+- Model Training
+- Tokenization
 - Dataset Processing
 - Question Answering
 - Named Entity Recognition (NER)
@@ -23,7 +24,7 @@ A collection of practical implementations completed while following the **Huggin
 - Text Summarization
 - Masked Language Modeling
 - Causal Language Modeling
-- Fine-tuning Pretrained Models
+- Fine-Tuning Pretrained Models
 - Reinforcement Learning (GRPO)
 
 ---
@@ -50,12 +51,13 @@ huggingface-llm-course/
 ├── .gitignore
 │
 ├── 01-transformers/
-├── 02-transformer-workflow//
-├── 03-tokenizers/
-├── 04-nlp-tasks/
-├── 05-fine-tuning/
-├── 06-course-exercises/
-└── 07-rlhf/
+├── 02-transformer-workflow/
+├── 03-model-training/
+├── 04-tokenizers/
+├── 05-nlp-tasks/
+├── 06-fine-tuning/
+├── 07-course-exercises/
+└── 08-rlhf/
 ```
 
 ---
@@ -66,11 +68,12 @@ huggingface-llm-course/
 |---------|-------------|:------:|
 | 01 - Transformers | Introduction to Transformer pipelines and NLP tasks | ✅ |
 | 02 - Transformer Workflow | Understanding the Hugging Face pipeline internals | ✅ |
-| 03 - Tokenizers | Training and using Hugging Face tokenizers | ⏳ |
-| 04 - NLP Tasks | Question Answering, NER, Translation, Summarization | ⏳ |
-| 05 - Fine-tuning | Fine-tuning pretrained language models | ⏳ |
-| 06 - Course Exercises | Additional practical exercises | ⏳ |
-| 07 - RLHF | GRPO and reinforcement learning exercises | ⏳ |
+| 03_model_training | Preparing datasets and fine-tuning pretrained Transformer models.  | ✅ |
+| 04 - Tokenizers | Training and using Hugging Face tokenizers | ⏳ |
+| 05 - NLP Tasks | Question Answering, NER, Translation, Summarization | ⏳ |
+| 06 - Fine-tuning | Fine-tuning pretrained language models | ⏳ |
+| 07 - Course Exercises | Additional practical exercises | ⏳ |
+| 08 - RLHF | GRPO and reinforcement learning exercises | ⏳ |
 
 ---
 
