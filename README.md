@@ -27,9 +27,10 @@ This repository documents my hands-on implementation of the Hugging Face LLM Cou
 - Text Summarization
 - Masked Language Modeling
 - Causal Language Modeling
-- Supervised Fine-Tuning
+- Chat Templates
+- Supervised Fine-Tuning (SFT)
+- Parameter-Efficient Fine-Tuning (LoRA)
 - Reinforcement Learning (GRPO)
-
 ---
 
 ## 🛠️ Technologies
@@ -42,7 +43,8 @@ This repository documents my hands-on implementation of the Hugging Face LLM Cou
 - Hugging Face Evaluate
 - Hugging Face Hub
 - Accelerate
-
+- TRL
+- PEFT
 ---
 
 ## 📂 Repository Structure
@@ -64,7 +66,10 @@ huggingface-llm-course/
 │   ├── machine-translation/
 │   ├── text-summarization/
 │   └── causal-language-modeling/
-├── 06-fine-tuning/
+├── 06-fine-tuningLLMs/
+│   ├── chat-templates/
+│   ├── supervised-fine-tuning/
+│   └── lora-fine-tuning/
 ├── 07-course-exercises/
 └── 08-rlhf/
 ```
@@ -80,7 +85,7 @@ huggingface-llm-course/
 | **03 – Model Training** | Dataset preprocessing and supervised fine-tuning using the Hugging Face `Trainer` API | ✅ |
 | **04 – Tokenization** | Fast tokenizers, normalization, WordPiece, BPE, Unigram, and custom tokenizer construction | ✅ |
 | **05 – NLP Tasks** | Question Answering, Named Entity Recognition, Translation, and Summarization | ✅ |
-| **06 – Fine-Tuning** | Fine-tuning pretrained Transformer and language models | ⏳ |
+| **06 – LLM Fine-Tuning** | Chat templates, Supervised Fine-Tuning (SFT), and LoRA | ✅ |
 | **07 – Course Exercises** | Additional practical implementations and projects | ⏳ |
 | **08 – RLHF** | Reinforcement Learning and GRPO for Large Language Models | ⏳ |
 
@@ -97,6 +102,8 @@ Throughout this repository, I explore how to:
 - Build custom tokenizers from scratch.
 - Evaluate NLP models using standard benchmarks.
 - Work effectively with the Hugging Face ecosystem.
+- Understand conversational data formatting using chat templates.
+- Apply parameter-efficient fine-tuning techniques such as LoRA.
 
 ---
 
@@ -110,6 +117,7 @@ Throughout this repository, I explore how to:
 
 ---
 
+
 ## ⭐ About This Repository
 
-This repository is part of my continuous learning journey in **Large Language Models (LLMs)**, **Generative AI**, and **Natural Language Processing (NLP)**. It is designed as a technical portfolio that showcases practical implementations, structured documentation, and hands-on experience with the Hugging Face ecosystem.
+This repository is part of my continuous learning journey in **Large Language Models (LLMs)**, **Generative AI**, and **Natural Language Processing (NLP)**. Rather than simply reproducing the Hugging Face course notebooks, I reorganized each module into a structured technical portfolio with improved documentation, code comments, and practical implementations that demonstrate modern NLP and LLM workflows.

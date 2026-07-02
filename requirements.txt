@@ -1,9 +1,21 @@
-# Requirements for the Hugging Face LLM learning
-
+# Core Deep Learning
 torch==2.12.1
+
+# Hugging Face Ecosystem
 transformers==4.56.1
 datasets==3.6.0
-evaluate==0.4.6
+tokenizers==0.22.2
 huggingface_hub==0.36.2
 accelerate==1.14.0
-tokenizers==0.22.2
+evaluate==0.4.6
+
+# LLM Fine-Tuning
+trl==0.17.0
+peft==0.19.1
+
+# NLP Evaluation
+seqeval==1.2.2
+sacrebleu==2.6.0
+
+# Tokenization
+sentencepiece==0.2.1
