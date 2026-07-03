@@ -1,0 +1,19 @@
+# Core deep learning
+torch
+torchvision
+accelerate==1.2.1
+
+# Hugging Face ecosystem
+transformers==4.47.1
+datasets==3.2.0
+trl==0.14.0
+peft==0.14.0
+
+# Quantization
+bitsandbytes==0.45.2
+
+# Experiment tracking
+wandb==0.19.7
+
+# Optional: Faster attention (requires CUDA)
+flash-attn
