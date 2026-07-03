@@ -30,7 +30,10 @@ This repository documents my hands-on implementation of the Hugging Face LLM Cou
 - Chat Templates
 - Supervised Fine-Tuning (SFT)
 - Parameter-Efficient Fine-Tuning (LoRA)
-- Reinforcement Learning (GRPO)
+- Reasoning Models
+- Group Relative Policy Optimization (GRPO)
+- Reward Functions
+- Reinforcement Learning for LLMs
 ---
 
 ## 🛠️ Technologies
@@ -70,8 +73,9 @@ huggingface-llm-course/
 │   ├── chat-templates/
 │   ├── supervised-fine-tuning/
 │   └── lora-fine-tuning/
-├── 07-course-exercises/
-└── 08-rlhf/
+│
+└── 07-reasoning-models/
+    └── grpo-finetuning.ipynb
 ```
 
 ---
@@ -86,9 +90,7 @@ huggingface-llm-course/
 | **04 – Tokenization** | Fast tokenizers, normalization, WordPiece, BPE, Unigram, and custom tokenizer construction | ✅ |
 | **05 – NLP Tasks** | Question Answering, Named Entity Recognition, Translation, and Summarization | ✅ |
 | **06 – LLM Fine-Tuning** | Chat templates, Supervised Fine-Tuning (SFT), and LoRA | ✅ |
-| **07 – Course Exercises** | Additional practical implementations and projects | ⏳ |
-| **08 – RLHF** | Reinforcement Learning and GRPO for Large Language Models | ⏳ |
-
+| **07 – Reasoning Models** | Fine-tuning reasoning models using GRPO, custom reward functions, and reinforcement learning for LLMs| ✅ |
 ---
 
 ## 🎯 Learning Objectives
@@ -104,6 +106,8 @@ Throughout this repository, I explore how to:
 - Work effectively with the Hugging Face ecosystem.
 - Understand conversational data formatting using chat templates.
 - Apply parameter-efficient fine-tuning techniques such as LoRA.
+- Understand post-training techniques for reasoning language models.
+- Fine-tune LLMs using Group Relative Policy Optimization (GRPO).
 
 ---
 
@@ -120,4 +124,4 @@ Throughout this repository, I explore how to:
 
 ## ⭐ About This Repository
 
-This repository is part of my continuous learning journey in **Large Language Models (LLMs)**, **Generative AI**, and **Natural Language Processing (NLP)**. Rather than simply reproducing the Hugging Face course notebooks, I reorganized each module into a structured technical portfolio with improved documentation, code comments, and practical implementations that demonstrate modern NLP and LLM workflows.
+This repository is part of my continuous learning journey in **Large Language Models (LLMs)**, **Generative AI**, and **Natural Language Processing (NLP)**. Rather than simply reproducing the Hugging Face course notebooks, I reorganized each module into a structured technical portfolio with improved documentation, code comments, and practical implementations. The repository now spans the complete LLM workflow—from Transformer fundamentals and NLP applications to supervised fine-tuning, parameter-efficient adaptation, and reinforcement learning techniques for reasoning models.
