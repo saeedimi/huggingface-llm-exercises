@@ -53,7 +53,7 @@ One of the most successful approaches for aligning LLMs is **RLHF**.
 The overall process is illustrated below.
 
 <p align="center">
-<img src="rlhf_pipeline.png" width="900">
+<img src="RF_L.jpg" width="900">
 </p>
 
 The workflow consists of four stages:
@@ -98,7 +98,7 @@ GRPO offers several advantages:
 Instead of generating one answer, the model generates **multiple candidate solutions** for every prompt.
 
 <p align="center">
-<img src="grpo_pipeline.png" width="900">
+<img src="GRPO.jpg" width="900">
 </p>
 
 The training process is:
@@ -159,7 +159,7 @@ A KL-divergence penalty prevents the model from changing too aggressively, maint
 The reward function is one of the most important components of GRPO.
 
 <p align="center">
-<img src="reward_functions.png" width="650">
+<img src="Reward_F.jpg" width="650">
 </p>
 
 A reward function can evaluate multiple aspects simultaneously.
