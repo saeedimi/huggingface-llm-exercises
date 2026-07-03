@@ -64,18 +64,18 @@ huggingface-llm-course/
 ├── 03-model-training/
 ├── 04-tokenizers/
 ├── 05-nlp-applications/
-│   ├── token-classification/
-│   ├── masked-language-modeling/
-│   ├── machine-translation/
-│   ├── text-summarization/
-│   └── causal-language-modeling/
+│   ├── token-classification
+│   ├── masked-language-modeling
+│   ├── machine-translation
+│   ├── text-summarization
+│   └── causal-language-modeling
 ├── 06-fine-tuningLLMs/
 │   ├── chat-templates/
-│   ├── supervised-fine-tuning/
-│   └── lora-fine-tuning/
+│   ├── supervised-fine-tuning
+│   └── lora-fine-tuning
 │
 └── 07-reasoning-models/
-    └── grpo-finetuning.ipynb
+    └── grpo-finetuning
 ```
 
 ---
